@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "LeuAlmeida <leo@webid.net.br>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
