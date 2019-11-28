@@ -4,7 +4,7 @@ import './Main.css';
 
 function Main() {
   return (
-    <div>
+    <div className="mainContent">
         <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
