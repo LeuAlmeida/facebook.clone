@@ -8,11 +8,11 @@ function Header() {
     <div className="nav">
       <div className="firstcolumn">
         <a href="https://github.com/LeuAlmeida" title="Ir para a página inicial do Facebook" className="githubURL">
-          <i class="fab fa-facebook-square logo"></i>
+          <i className="fab fa-facebook-square logo"></i>
         </a>
 
         <div className="searchfield">
-          <input class="search" placeholder="Pesquisar" />
+          <input className="search" placeholder="Pesquisar" />
           <div className="iconsearch">
             <i className="fas fa-search"></i>
           </div>
@@ -29,23 +29,23 @@ function Header() {
 
         <span className="border-right-nav text-nav">Criar</span>
 
-        <i class="fas fa-user-friends topicon" title="Solicitações de Amizade"></i>
+        <i className="fas fa-user-friends topicon" title="Solicitações de Amizade"></i>
 
-        <i class="fab fa-facebook-messenger topicon text-white" title="Mensagens">
+        <i className="fab fa-facebook-messenger topicon text-white" title="Mensagens">
           <div className="badge">
             <span className="badge-icon">2</span>
           </div>
         </i>
 
-        <i class="fas fa-bell topicon text-white" title="Notificações">
+        <i className="fas fa-bell topicon text-white" title="Notificações">
           <div className="badge">
             <span className="badge-icon">8</span>
           </div>
         </i>
 
-        <i class="fas fa-question-circle topicon border-right-nav" title="Ajuda rápida"></i>
+        <i className="fas fa-question-circle topicon border-right-nav" title="Ajuda rápida"></i>
 
-        <i class="fas fa-sort-down topicon"></i>
+        <i className="fas fa-sort-down topicon"></i>
       </div>
     </div>
   );

@@ -13,22 +13,22 @@ function LeftNav() {
       </div>
 
       <div className="navigationList activeList">
-        <i class="far fa-window-maximize"></i>
+        <i className="far fa-window-maximize"></i>
         <span className="navigationListName active">Feed de Notícias</span>
       </div>
 
       <div className="navigationDefaultList">
-        <i class="fab fa-facebook-messenger"></i>
+        <i className="fab fa-facebook-messenger"></i>
         <span className="navigationListName">Messenger</span>
       </div>
 
       <div className="navigationDefaultList">
-      <i class="fab fa-youtube"></i>
+      <i className="fab fa-youtube"></i>
         <span className="navigationListName">Vídeos no Watch</span>
       </div>
 
       <div className="navigationDefaultList">
-        <i class="fas fa-store"></i>
+        <i className="fas fa-store"></i>
         <span className="navigationListName">Marketplace</span>
       </div>
     </div>
