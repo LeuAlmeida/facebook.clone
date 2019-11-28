@@ -2,7 +2,8 @@ import React from "react";
 
 import "./Chat.css";
 
-import Contacts from './Contacts'
+import Contacts from './Contacts';
+import Search from './Search';
 
 function Chat() {
   return (
@@ -12,14 +13,8 @@ function Chat() {
       </div>
 
       <Contacts />
-
-      <div className="searchChat">
-        <i className="fas fa-search"></i>
-        <input placeholder="Pesquisar" className="searchTitle" />
-        <i className="fas fa-cog"></i>
-        <i className="fas fa-edit"></i>
-        <i className="fas fa-users-cog"></i>
-      </div>
+      <Search />
+      
     </div>
   );
 }
