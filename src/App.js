@@ -1,6 +1,6 @@
 import React from "react";
 
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 import "./App.css";
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <div>
+      <div className="container">
         <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
