@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./Header.css";
-import profile from '../assets/img/profile.jpeg';
+import profile from "../assets/img/profile.jpeg";
 
 function Header() {
   return (
@@ -20,17 +20,25 @@ function Header() {
       </div>
 
       <div className="notifications">
-          <img src={profile} className="profileImage" />
-          <span className="border-right-nav text-nav">Léu</span>
+        <img src={profile} className="profileImage" />
+        <span className="border-right-nav text-nav">Léu</span>
 
-          <span className="border-right-nav text-nav">Página Inicial</span>
-          <span className="border-right-nav text-nav">Criar</span>
-          <i class="fas fa-user-friends topicon"></i>
-          <i class="fab fa-facebook-messenger topicon text-white"></i>
-          <i class="fas fa-bell topicon text-white"></i>
+        <span className="border-right-nav text-nav">Página Inicial</span>
+        <span className="border-right-nav text-nav">Criar</span>
+        <i class="fas fa-user-friends topicon"></i>
+        <i class="fab fa-facebook-messenger topicon text-white">
+          <div className="badge">
+            <span className="badge-icon">2</span>
+          </div>
+        </i>
+        <i class="fas fa-bell topicon text-white">
+          <div className="badge">
+            <span className="badge-icon">8</span>
+          </div>
+        </i>
 
-          <i class="fas fa-question-circle topicon border-right-nav"></i>
-          <i class="fas fa-sort-down topicon"></i>
+        <i class="fas fa-question-circle topicon border-right-nav"></i>
+        <i class="fas fa-sort-down topicon"></i>
       </div>
     </div>
   );
