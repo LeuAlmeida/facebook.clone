@@ -38,7 +38,7 @@ function Contacts() {
         </div>
         <div className="contact">
           <img src={man} />
-          <span>Fernando Zanc...</span>
+          <span>Fernando Zanco...</span>
         </div>
         <div className="contact">
           <img src={man2} />
