@@ -63,6 +63,11 @@ a.githubURL .logo {
   font-size: 13px;
 }
 
+.perfil {
+  display: flex;
+  cursor: pointer;
+}
+
 .profileImage {
   width: 25px;
   border-radius: 30px;
@@ -71,6 +76,7 @@ a.githubURL .logo {
 .text-nav {
   margin-top: 5px;
   padding-left: 10px;
+  cursor: pointer;
 }
 
 .notifications {
@@ -84,6 +90,7 @@ a.githubURL .logo {
   color: #1a2847;
   font-size: 18px;
   margin: 3px 0px 0px 20px;
+  cursor: pointer;
 }
 
 .text-white {
