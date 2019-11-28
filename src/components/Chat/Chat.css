@@ -1,0 +1,88 @@
+.chatContainer {
+  background: #f5f6f7;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  border-left: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.searchChat {
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 15px;
+  color: #bdbdbd;
+  font-size: 14px;
+  height: 25px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #353535;
+}
+
+.title {
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.title > span:first-of-type {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  background: transparent;
+  width: 100%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.contact img {
+  width: 35px;
+  border-radius: 40px;
+}
+
+.contact span {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.fas.fa-search {
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+}
+
+.searchTitle {
+  padding: 0px 5px;
+  border: 0;
+  outline: 0;
+  width: 90px;
+}
+
+.fa-cog,
+.fa-edit,
+.fa-users-cog {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #bdbdbd;
+  margin: 0 3px;
+}
