@@ -1,0 +1,96 @@
+.containerNav {
+  display: flex;
+  width: 15%;
+  height: 400px;
+  flex-direction: column;
+  position: fixed;
+}
+
+.profileNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #222;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-bottom: 5px;
+}
+
+.profileNav:hover {
+  background: #f5f6f7;
+  border: 1px solid #dddfe2;
+}
+
+.profileNav:hover:after {
+  content: "\f141";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: #8a8a8a;
+  margin-left: 80px;
+}
+
+.profileNav img{
+  width: 20px;
+  border-radius: 30px;
+}
+
+.profileName {
+  margin-left: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.navigationList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #222;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.navigationListName {
+  margin-left: 5px;
+  font-size: 12px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.activeList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #222;
+  padding: 5px;
+  background: #f5f6f7;
+  border: 1px solid #dddfe2;
+}
+
+.activeList:after {
+  content: "\f141";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  color: #8a8a8a;
+  margin-left: 54px;
+}
+
+.navigationDefaultList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #222;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.navigationDefaultList:hover {
+  background: #f5f6f7;
+  border: 1px solid #dddfe2;
+}
