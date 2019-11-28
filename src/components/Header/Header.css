@@ -12,6 +12,7 @@
   color: #fff;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 
 .firstcolumn {
@@ -53,6 +54,7 @@ a.githubURL .logo {
   border: 0;
   padding: 3px 5px;
   border-radius: 3px 0px 0px 3px;
+  outline: 0;
 }
 
 .iconsearch:hover {
