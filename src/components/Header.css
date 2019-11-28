@@ -10,6 +10,8 @@
   justify-content: space-between;
   align-items: center;
   color: #fff;
+  position: fixed;
+  top: 0;
 }
 
 .firstcolumn {
