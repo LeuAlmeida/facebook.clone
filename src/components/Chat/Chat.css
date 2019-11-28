@@ -38,7 +38,8 @@
 }
 
 .title > span:first-of-type {
-  font-size: 12px;
+  font-size: 10px;
+  font-weight: bold;
   font-weight: bold;
 }
 
@@ -49,6 +50,13 @@
   width: 100%;
   padding: 5px 10px;
   cursor: pointer;
+}
+
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
 }
 
 .contact:hover {
@@ -63,6 +71,24 @@
   position: absolute;
   right: 15px;
   color: #4ab72b;
+}
+
+.moreGames {
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.gamesList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.gamesList img {
+  width: 45px;
+  border-radius: 30px;
 }
 
 .contact img {
