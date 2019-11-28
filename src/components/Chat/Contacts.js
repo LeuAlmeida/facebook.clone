@@ -11,7 +11,7 @@ import man2 from "../../assets/img/personas/man2.jpg";
 function Contacts() {
   return (
     <>
-      <div className="title">
+      <div className="title" style={{marginTop: 10}}>
         <span>CONTATOS</span>
       </div>
 
