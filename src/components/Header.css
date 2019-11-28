@@ -90,6 +90,27 @@ a.githubURL .logo {
   color: #fff;
 }
 
+.badge {
+  background: red;
+  width: 14px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  border-radius: 3px;
+  top: 7px;
+  margin-left: -5px;
+}
+
+.badge-icon {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  margin-top: 3px;
+}
+
 .border-right-nav {
   padding-right: 10px;
   border-right: 1px solid #1a28472b;
