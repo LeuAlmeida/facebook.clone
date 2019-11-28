@@ -11,7 +11,9 @@ function App() {
     <>
       <Header />
       <Container>
-      <Main />
+
+        {/* <Main /> */}
+
       </Container>
     </>
   );
