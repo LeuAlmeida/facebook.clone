@@ -4,14 +4,13 @@ import "./Chat.css";
 
 import Contacts from './Contacts';
 import Search from './Search';
+import Games from './Games';
 
 function Chat() {
   return (
     <div className="chatContainer">
-      <div className="title">
-        <span>CONTATOS</span>
-      </div>
-
+      
+      <Games />
       <Contacts />
       <Search />
       
