@@ -18,24 +18,24 @@ function NewPost() {
         <div className="badgesPost">
           <div className="badgePost">
             <img />
-            <i class="fas fa-image"></i>
+            <i className="fas fa-image"></i>
             <span className="badgeTitle">Foto/vídeo</span>
           </div>
 
           <div className="badgePost">
             <img />
-            <i class="fas fa-user-tag"></i>
+            <i className="fas fa-user-tag"></i>
             <span className="badgeTitle">Marcar amigos</span>
           </div>
 
           <div className="badgePost">
             <img />
-            <i class="fas fa-smile-beam"></i>
+            <i className="fas fa-smile-beam"></i>
             <span className="badgeTitle">Sentimento/a...</span>
           </div>
 
           <div className="badgePost">
-            <i class="fas fa-ellipsis-h"></i>
+            <i className="fas fa-ellipsis-h"></i>
           </div>
         </div>
 
