@@ -1,10 +1,12 @@
 import React from 'react';
 
 import './Main.css';
+import NewPost from '../NewPost/NewPost';
 
 function Main() {
   return (
     <div className="mainContent">
+      <NewPost />
         <h3>The standard Lorem Ipsum passage, used since the 1500s</h3>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

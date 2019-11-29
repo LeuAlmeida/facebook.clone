@@ -1,0 +1,106 @@
+.headerPostCard {
+  display: flex;
+  width: 100%;
+  background: #f5f6f7;
+  height: 30px;
+  align-items: center;
+  padding: 0px 5px;
+  border: 1px solid #dddfe2;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.headerPostCard > span:first-of-type {
+  font-size: 12px;
+  font-weight: bold;
+  color: #4b4e55;
+}
+
+.bodyPostCard {
+  display: flex;
+  background: #fff;
+  width: 100%;
+  padding: 0 5px;
+  border-left: 1px solid #dddfe2;
+  border-right: 1px solid #dddfe2;
+}
+
+.bodyPostCard img {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #d8d8d8;
+  margin: 10px 0px 10px 10px;
+}
+
+.bodyPostCard > span:first-of-type {
+  display: flex;
+  align-items: center;
+}
+
+.bodyPostCard > input:first-of-type {
+  border: 0;
+  width: 100%;
+  padding-left: 15px;
+  outline: none;
+}
+
+.bodyPostCard > input:first-of-type::placeholder {
+  font-size: 1.1em;
+  color: #afafb1;
+}
+
+.footerPostCard {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  background: #FFF;
+  padding: 5px;
+  border-radius: 0px 0px 4px 4px;
+  border: 1px solid #dddfe2;
+  justify-content: space-between;
+}
+
+.createPostButton {
+  display: flex;
+  background: #4267b2;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  margin: 0px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  width: 100px;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.createPostButton:hover {
+  background: #375798;
+  transition: 0.4s;
+}
+
+.badgesPost {
+  display: flex;
+}
+
+.badgePost {
+  display: flex;
+  padding: 10px;
+  margin-left: 5px;
+  background: #ececec;
+  border-radius: 20px;
+}
+
+.fas.fa-image {
+  color: #6f6f6f;
+  margin-right: 5px;
+}
+
+.badgeTitle {
+  display: flex;
+  color: #6f6f6f;
+  font-weight: bold;
+  font-size: 12px;
+}
