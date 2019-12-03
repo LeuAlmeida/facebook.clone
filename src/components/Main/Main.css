@@ -1,3 +1,9 @@
 .mainContent {
   margin-left: 22%;
 }
+
+@media only screen and (max-width: 767px) {
+  .mainContent {
+    margin: 0 auto;
+  }
+}
