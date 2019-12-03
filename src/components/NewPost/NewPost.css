@@ -100,12 +100,12 @@ div.badgePost .fas.fa-user-tag,
 div.badgePost .fas.fa-smile-beam,
 div.badgePost .fas.fa-ellipsis-h {
   color: #6f6f6f;
-  margin-right: 5px;
   text-align: center;
 }
 
 .badgeTitle {
   display: flex;
+  margin-left: 5px;
   color: #6f6f6f;
   font-weight: bold;
   font-size: 12px;
