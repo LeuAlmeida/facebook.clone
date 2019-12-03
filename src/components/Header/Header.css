@@ -34,6 +34,7 @@ a.githubURL .logo {
 
 .searchfield {
   display: flex;
+  margin-right: 10px;
 }
 
 .iconsearch {
@@ -74,13 +75,15 @@ a.githubURL .logo {
 
 .profileImage {
   width: 25px;
+  height: 25px;
   border-radius: 30px;
 }
 
 .text-nav {
   margin-top: 5px;
-  padding-left: 10px;
+  margin-left: 10px;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .notifications {
@@ -129,4 +132,10 @@ a.githubURL .logo {
 
 .fas.fa-sort-down {
   margin-top: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .githubURL {
+    padding-left: 3%;
+}
 }
