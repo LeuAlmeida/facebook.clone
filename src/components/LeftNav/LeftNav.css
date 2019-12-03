@@ -94,3 +94,9 @@
   background: #f5f6f7;
   border: 1px solid #dddfe2;
 }
+
+@media only screen and (max-width: 767px) {
+  .containerNav {
+    display: none;
+  }
+}
