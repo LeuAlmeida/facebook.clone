@@ -126,3 +126,9 @@
   color: #bdbdbd;
   margin: 0 3px;
 }
+
+@media only screen and (max-width:1125px) {
+  .chatContainer {
+    display: none;
+  }
+}
