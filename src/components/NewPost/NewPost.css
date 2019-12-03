@@ -1,3 +1,7 @@
+.createPostCard {
+  max-width: 575px;
+}
+
 .headerPostCard {
   display: flex;
   width: 100%;
