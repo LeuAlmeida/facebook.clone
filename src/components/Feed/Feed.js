@@ -1,8 +1,11 @@
 import React from 'react'
 
+import './Feed.css';
+
 function Feed() {
   return (
-    <h1>Feed de Notícias</h1>
+    <div className="feedContainer">
+    </div>
   )
 }
 
