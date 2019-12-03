@@ -1,0 +1,6 @@
+.feedContainer {
+  display: flex;
+  max-width: 575px;
+  height: 96vh;
+  margin-top: 4vh
+}
