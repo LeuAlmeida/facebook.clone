@@ -1,13 +1,13 @@
 import React from 'react'
 
-import PostFeed from '../PostFeed/PostFeed';
+import PostList from '../PostList/PostList';
 
 import './Feed.css';
 
 function Feed() {
   return (
     <div className="feedContainer">
-      <PostFeed />
+      <PostList />
     </div>
   )
 }
