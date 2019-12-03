@@ -4,11 +4,10 @@
 
 .headerPostCard {
   display: flex;
-  width: 100%;
   background: #f5f6f7;
   height: 30px;
   align-items: center;
-  padding: 0px 5px;
+  padding: 0px 15px;
   border: 1px solid #dddfe2;
   border-radius: 4px 4px 0px 0px;
 }
@@ -22,7 +21,6 @@
 .bodyPostCard {
   display: flex;
   background: #fff;
-  width: 100%;
   padding: 0 5px;
   border-left: 1px solid #dddfe2;
   border-right: 1px solid #dddfe2;
@@ -56,7 +54,6 @@
 
 .footerPostCard {
   display: flex;
-  width: 100%;
   height: 35px;
   background: #FFF;
   padding: 15px 5px;
