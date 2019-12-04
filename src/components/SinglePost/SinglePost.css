@@ -1,12 +1,12 @@
 .postFeedCard {
   display: flex;
+  flex-direction: column;
   width: 99.7%;
-  height: 60px;
+  height: 80px;
   background: #fff;
   border-radius: 3px;
-  border-left: 1px solid #dddfe2;
-  border-right: 1px solid #dddfe2;
-  border-top: 1px solid #dddfe2;
+  margin-top: 10px;
+  border:1px solid #dddfe2;
 }
 
 .postFeedCardHeader {
@@ -70,4 +70,12 @@
 .optionsHeader i {
   color: #616770;
   padding-right: 10px;
+}
+
+.postFeedCardContent {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  min-height: 80px;
+  padding: 15px;
 }
