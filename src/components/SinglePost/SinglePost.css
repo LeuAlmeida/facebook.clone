@@ -51,7 +51,7 @@
 .postListInfos .postListDate {
   font-size: 0.8em;
   color: #616770;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .postListInfos .postListDate:after {
@@ -79,7 +79,7 @@
   flex-direction: column;
   background: #fff;
   min-height: 60px;
-  padding: 15px;
+  padding: 0px 15px;
   font-size: 0.9em;
 }
 
@@ -118,3 +118,61 @@
   padding: 0px 15px;
 }
 
+.singleCommentContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px 10px 15px;
+}
+
+.singleCommentContainer img:first-of-type {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.uniqueComment {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.theComment {
+  padding: 15px;
+  background: #f2f3f5;
+  border-radius: 20px;
+  font-size: 0.8em;
+  color: #1c1e21;
+  margin-bottom: 5px;
+  line-height: 1.2em;
+}
+
+.theComment a {
+  font-weight: bold;
+  font-size: 1em;
+  color: #385898;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.commentActions {
+  font-size: 0.8em;
+  padding-left: 15px;
+}
+
+.commentActions span {
+  color: #5d708f;
+}
+
+.commentActions a {
+  text-decoration: none;
+  color: #385898;
+}
+
+.commentActions a:after {
+  content: "•";
+  color: #5d708f;
+  font-size: 0.3em;
+  margin-top: -5px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
