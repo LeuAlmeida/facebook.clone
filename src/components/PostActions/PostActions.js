@@ -7,15 +7,15 @@ function PostActions() {
     <div className="postFeedCTA">
       <div className="CTALike">
         <i className="far fa-thumbs-up"></i>
-        Like
+        Curtir
       </div>
       <div className="CTAComment">
         <i className="far fa-comment-alt"></i>
-        Comment
+        Comentar
       </div>
       <div className="CTAShare">
         <i className="fas fa-share"></i>
-        Share
+        Compartilhar
       </div>
     </div>
   );
