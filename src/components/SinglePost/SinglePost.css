@@ -1,12 +1,12 @@
 .postFeedCard {
   display: flex;
   flex-direction: column;
+  border: 1px solid #dddfe2;
   width: 99.7%;
-  height: 80px;
+  height: auto;
   background: #fff;
   border-radius: 3px;
   margin-top: 10px;
-  border:1px solid #dddfe2;
 }
 
 .postFeedCardHeader {
@@ -74,8 +74,10 @@
 
 .postFeedCardContent {
   display: flex;
+  word-break: break-all;
   flex-direction: column;
   background: #fff;
   min-height: 80px;
   padding: 15px;
+  font-size: 0.9em;
 }
