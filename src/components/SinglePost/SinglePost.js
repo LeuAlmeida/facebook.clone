@@ -4,6 +4,12 @@ import './SinglePost.css';
 
 import imageLorem from "../../assets/img/personas/cat.jpg";
 
+import love from '../../assets/img/reactons/love.png';
+import like from '../../assets/img/reactons/like.png';
+import laugh from '../../assets/img/reactons/laugh.png';
+import sad from '../../assets/img/reactons/sad.png';
+import rage from '../../assets/img/reactons/rage.png';
+
 function SinglePost() {
   return (
     <div className="postFeedCard">
@@ -23,6 +29,17 @@ function SinglePost() {
 
         <div className="postFeedCardContent">
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        </div>
+
+        <div className="postFeedReactons">
+          <div className="section1Reactons">
+            <img src={love} />
+            <img src={laugh} />
+            <span className="reactonCounter">8</span>
+          </div>
+          <div className="section2Reactons">
+            1 compartilhamento
+          </div>
         </div>
       </div>
   )

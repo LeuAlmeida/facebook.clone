@@ -81,3 +81,36 @@
   padding: 15px;
   font-size: 0.9em;
 }
+
+.postFeedReactons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 0px 15px 15px;
+}
+
+.section1Reactons {
+  display: flex;
+}
+
+.section1Reactons img {
+  width: 18px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  margin-left: -5px;
+}
+
+.reactonCounter {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  color: #5d708f;
+  font-size: 0.8em;
+  margin-left: 2px;
+}
+
+.section2Reactons {
+  color: #5d708f;
+  font-size: 0.8em;
+  padding: 0px 15px;
+}
