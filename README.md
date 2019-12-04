@@ -11,7 +11,7 @@ An interface reply created with ReactJS by Léu Almeida with :blue_heart: and :c
 </blockquote>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LeuAlmeida/devfit.backend?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/LeuAlmeida/facebook.clone?color=%2304D361">
 
   <a href="https://rocketseat.com.br">
     <img alt="Made by Léu Almeida" src="https://img.shields.io/badge/made%20by-Léu%20Almeida-%2304D361">
