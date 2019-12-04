@@ -4,7 +4,6 @@ import "./SinglePost.css";
 
 import PostActions from "../PostActions/PostActions";
 import WriteComment from "../WriteComment/WriteComment";
-import SingleComment from "../SingleComment/SingleComment";
 
 import imageLorem from "../../assets/img/personas/cat.jpg";
 import love from "../../assets/img/reactons/love.png";
@@ -56,6 +55,9 @@ function PostComments({ comments }) {
 }
 
 function PostItem({ author, date, content, comments }) {
+
+  const share = Math.floor(Math.random() * 10);
+
   return (
     <div className="postFeedCard">
 
@@ -71,7 +73,7 @@ function PostItem({ author, date, content, comments }) {
           <img src={laugh} />
           <span className="reactonCounter">8</span>
         </div>
-        <div className="section2Reactons">1 compartilhamento</div>
+        <div className="section2Reactons">{comments.length} {comments.length > 1 ? 'comentários' : 'comentário'} {share} {share > 1 ? 'compartilhamentos' : 'compartilhamento'}</div>
       </div>
 
       <PostActions />
