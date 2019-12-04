@@ -10,6 +10,8 @@ import laugh from '../../assets/img/reactons/laugh.png';
 import sad from '../../assets/img/reactons/sad.png';
 import rage from '../../assets/img/reactons/rage.png';
 
+import commentAction from '../../assets/img/reactons/comment-action.png'
+
 function SinglePost() {
   return (
     <div className="postFeedCard">
@@ -54,6 +56,14 @@ function SinglePost() {
           <div className="CTAShare">
           <i className="fas fa-share"></i>
             Share
+          </div>
+        </div>
+
+        <div className="writeComment">
+          <img src={imageLorem} className="profilePicture" />
+          <div className="commentField">
+            <input placeholder="Escreva um comentário..." />
+            <img src={commentAction} />
           </div>
         </div>
       </div>
