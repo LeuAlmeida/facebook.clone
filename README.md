@@ -7,7 +7,7 @@
 </h3>
 
 <blockquote align="center">
-An interface reply created with ReactJS by Léu Almeida with :blue_heart: and :coffee:
+An interface reply created using ReactJS by Léu Almeida with :blue_heart: and :coffee:
 </blockquote>
 
 <p align="center">
@@ -23,7 +23,7 @@ An interface reply created with ReactJS by Léu Almeida with :blue_heart: and :c
 
 <hr/>
 
-<h3>:heavy_check_mark About the project</h3>
+<h3>:heavy_check_mark: About the project</h3>
 
 An interface as faithful as possible (removing only advertising and related content), completely componentized and with clean and robust code.
 
