@@ -118,33 +118,6 @@
   padding: 0px 15px;
 }
 
-.postFeedCTA {
-  display: flex;
-  border-top: 1px solid #dddfe2;
-  border-bottom: 1px solid #dddfe2;
-  padding: 15px 15px;
-  justify-content: space-between;
-}
-
-.CTALike,
-.CTAComment,
-.CTAShare {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  padding: 0px 40px;
-  color: #5d708f;
-  font-size: 0.8em;
-  font-weight: bold;
-}
-
-.CTALike i,
-.CTAComment i,
-.CTAShare i {
-  font-size: 1em;
-  margin-right: 5px;
-}
-
 .writeComment {
   display: flex;
   padding: 15px;

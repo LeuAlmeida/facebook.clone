@@ -2,6 +2,7 @@ import React from 'react';
 
 import './SinglePost.css';
 
+import PostActions from '../PostActions/PostActions';
 import SingleComment from '../SingleComment/SingleComment';
 
 import imageLorem from "../../assets/img/personas/cat.jpg";
@@ -44,20 +45,7 @@ function SinglePost() {
           </div>
         </div>
 
-        <div className="postFeedCTA">
-          <div className="CTALike">
-          <i className="far fa-thumbs-up"></i>
-            Like
-          </div>
-          <div className="CTAComment">
-          <i className="far fa-comment-alt"></i>
-            Comment
-          </div>
-          <div className="CTAShare">
-          <i className="fas fa-share"></i>
-            Share
-          </div>
-        </div>
+        <PostActions />
 
         <div className="writeComment">
           <img src={imageLorem} className="profilePicture" />
