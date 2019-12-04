@@ -2,14 +2,14 @@ import React from 'react';
 
 import './SinglePost.css';
 
-import imageLorem from "../../assets/img/personas/cat.jpg";
+import SingleComment from '../SingleComment/SingleComment';
 
+import imageLorem from "../../assets/img/personas/cat.jpg";
 import love from '../../assets/img/reactons/love.png';
 import like from '../../assets/img/reactons/like.png';
 import laugh from '../../assets/img/reactons/laugh.png';
 import sad from '../../assets/img/reactons/sad.png';
 import rage from '../../assets/img/reactons/rage.png';
-
 import commentAction from '../../assets/img/reactons/comment-action.png'
 
 function SinglePost() {
@@ -66,6 +66,8 @@ function SinglePost() {
             <img src={commentAction} />
           </div>
         </div>
+
+        <SingleComment />
       </div>
   )
 }
