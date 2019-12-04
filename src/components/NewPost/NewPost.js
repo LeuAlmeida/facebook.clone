@@ -4,6 +4,10 @@ import "./NewPost.css";
 
 import profile from "../../assets/img/profile.jpeg";
 
+import foto from '../../assets/img/reactons/foto-video-icon.png';
+import tag from '../../assets/img/reactons/tag-friends-icon.png';
+import feelings from '../../assets/img/reactons/feelings-icon.png';
+
 function NewPost() {
   return (
     <div className="createPostCard">
@@ -18,19 +22,19 @@ function NewPost() {
         <div className="badgesPost">
           <div className="badgePost">
             <img />
-            <i className="fas fa-image"></i>
+            <img src={foto} />
             <span className="badgeTitle">Foto/vídeo</span>
           </div>
 
           <div className="badgePost">
             <img />
-            <i className="fas fa-user-tag"></i>
+            <img src={tag} />
             <span className="badgeTitle">Marcar amigos</span>
           </div>
 
           <div className="badgePost">
             <img />
-            <i className="fas fa-smile-beam"></i>
+            <img src={feelings} />
             <span className="badgeTitle">Sentimento/a...</span>
           </div>
 

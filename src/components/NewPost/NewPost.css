@@ -88,9 +88,10 @@
 
 .badgePost {
   display: flex;
+  align-items: center;
   padding: 10px;
   margin-left: 5px;
-  background: #ececec;
+  background: #f5f6f7;
   border-radius: 20px;
   cursor: pointer;
 }
