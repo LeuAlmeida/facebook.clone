@@ -23,9 +23,7 @@ An interface reply created with ReactJS by Léu Almeida with :blue_heart: and :c
 
 <hr/>
 
-<h3>:heavy_check_mark: Made with ReactJS</h3>
-
-<h3>:white_check_mark: About the project</h3>
+<h3>:heavy_check_mark About the project</h3>
 
 An interface as faithful as possible (removing only advertising and related content), completely componentized and with clean and robust code.
 
