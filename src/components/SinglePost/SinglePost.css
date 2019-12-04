@@ -1,0 +1,73 @@
+.postFeedCard {
+  display: flex;
+  width: 99.7%;
+  height: 60px;
+  background: #fff;
+  border-radius: 3px;
+  border-left: 1px solid #dddfe2;
+  border-right: 1px solid #dddfe2;
+  border-top: 1px solid #dddfe2;
+}
+
+.postFeedCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.section1header {
+  display: flex;
+  flex-direction: row;
+}
+
+.postListPic {
+  display: flex;
+  padding: 10px;
+}
+
+.postListPic img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.postListInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.postListInfos > .postListTitle {
+  font-weight: bold;
+  font-size: 0.9em;
+  color: #385898;
+  cursor: pointer;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.postListInfos .postListDate {
+  font-size: 0.8em;
+  color: #616770;
+  letter-spacing: 2px;
+}
+
+.postListInfos .postListDate:after {
+  content: "\f57d";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 12px;
+  padding-left: 5px;
+}
+
+.optionsHeader {
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-end;
+}
+
+.optionsHeader i {
+  color: #616770;
+  padding-right: 10px;
+}
