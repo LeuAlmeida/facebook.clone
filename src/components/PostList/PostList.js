@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./PostList.css";
 
-import imageLorem from "../../assets/img/personas/cat.jpg";
+import SinglePost from '../SinglePost/SinglePost';
 
 class PostList extends Component {
   state = {
@@ -34,25 +34,7 @@ class PostList extends Component {
   };
   render() {
     return (
-      <div className="postFeedCard">
-        <div className="postFeedCardHeader">
-          <div className="section1header">
-            <div className="postListPic">
-              <img src={imageLorem} />
-            </div>
-            <div className="postListInfos">
-              <span className="postListTitle">Léu Almeida</span>
-              <span className="postListDate">7h</span>
-            </div>
-          </div>
-
-          <div className="optionsHeader"><i className="fas fa-ellipsis-h"></i></div>
-        </div>
-
-        <div className="postFeedCardContent">
-          
-        </div>
-      </div>
+      <SinglePost />
     );
   }
 }
